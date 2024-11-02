@@ -23,10 +23,8 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Users\Application\Internal\CommandServices\" />
-      <Folder Include="Users\Application\Internal\QueryServices\" />
-      <Folder Include="Users\Infrastructure\Persistence\EFC\Repositories\" />
-      <Folder Include="Users\Interfaces\REST\Resources\Transform\" />
+      <Folder Include="Parent\Infrastructure\Persistence\EFC\Repositories\" />
+      <Folder Include="Parent\Interfaces\REST\Resources\Transform\" />
     </ItemGroup>
 
 </Project>

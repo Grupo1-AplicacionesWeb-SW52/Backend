@@ -1,4 +1,4 @@
-﻿namespace CareNestSolution.Users.Domain.Model.Entities;
+﻿namespace CareNestSolution.Parent.Domain.Model.Entities;
 
 public class ParentEntity
 {
