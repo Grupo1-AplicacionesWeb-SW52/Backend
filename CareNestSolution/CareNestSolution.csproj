@@ -26,7 +26,6 @@
       <Folder Include="CareNest\Application\Internal\CommandServices\" />
       <Folder Include="CareNest\Application\Internal\QueryServices\" />
       <Folder Include="CareNest\Domain\Model\Aggregate\" />
-      <Folder Include="CareNest\Domain\Model\Commands\" />
       <Folder Include="CareNest\Domain\Model\Entities\" />
       <Folder Include="CareNest\Domain\Model\Queries\" />
       <Folder Include="CareNest\Domain\Model\ValueObjects\" />
