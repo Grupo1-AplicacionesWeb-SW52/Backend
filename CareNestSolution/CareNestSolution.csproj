@@ -23,15 +23,12 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="CareNest\Application\Internal\CommandServices\" />
-      <Folder Include="CareNest\Application\Internal\QueryServices\" />
-      <Folder Include="CareNest\Domain\Model\Entities\" />
-      <Folder Include="CareNest\Domain\Model\Queries\" />
-      <Folder Include="CareNest\Domain\Model\ValueObjects\" />
-      <Folder Include="CareNest\Domain\Repositories\" />
-      <Folder Include="CareNest\Domain\Services\" />
-      <Folder Include="CareNest\Infrastructure\Persistence\EFC\Repositories\" />
-      <Folder Include="CareNest\Interfaces\REST\Resources\Transform\" />
+      <Folder Include="Users\Application\Internal\CommandServices\" />
+      <Folder Include="Users\Application\Internal\QueryServices\" />
+      <Folder Include="Users\Domain\Repositories\" />
+      <Folder Include="Users\Domain\Services\" />
+      <Folder Include="Users\Infrastructure\Persistence\EFC\Repositories\" />
+      <Folder Include="Users\Interfaces\REST\Resources\Transform\" />
     </ItemGroup>
 
 </Project>
