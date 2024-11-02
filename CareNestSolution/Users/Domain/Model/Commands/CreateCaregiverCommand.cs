@@ -15,8 +15,5 @@ public record CreateCaregiverCommand(
     string Experience,
     string Bio,
     Dictionary<string, string> Availability
-    )
-{
-
-}
+);
 

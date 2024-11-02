@@ -6,6 +6,4 @@ public record CreateParentCommand(
     string Email,
     string Document,
     string PhoneNumber,
-    string Password)
-{
-}
+    string Password);
