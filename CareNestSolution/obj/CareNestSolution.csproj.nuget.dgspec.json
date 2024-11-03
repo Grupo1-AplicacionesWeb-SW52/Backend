@@ -69,6 +69,22 @@
               "target": "Package",
               "version": "[9.0.0-rc.2.24474.1, )"
             },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "MySql.Data.EntityFramework": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
+            "MySql.Data.NET40": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MySql.Data.OpenTelemetry": {
+              "target": "Package",
+              "version": "[9.1.0, )"
+            },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0-preview, )"

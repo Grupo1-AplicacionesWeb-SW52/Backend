@@ -16,6 +16,10 @@
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
+        <PackageReference Include="MySql.Data" Version="9.1.0" />
+        <PackageReference Include="MySql.Data.EntityFramework" Version="9.1.0" />
+        <PackageReference Include="MySql.Data.NET40" Version="1.0.0" />
+        <PackageReference Include="MySql.Data.OpenTelemetry" Version="9.1.0" />
         <PackageReference Include="MySql.EntityFrameworkCore" Version="9.0.0-preview" />
         <PackageReference Include="Pluralizer" Version="0.3.0.1" />
         <PackageReference Include="Plurally" Version="1.0.10" />
