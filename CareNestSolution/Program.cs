@@ -1,9 +1,4 @@
-using CareNestSolution.Parent.Application.Internal.CommandServices;
-using CareNestSolution.Parent.Application.Internal.QueryServices;
-using CareNestSolution.Parent.Domain.Repositories;
-using CareNestSolution.Parent.Domain.Services;
-using CareNestSolution.Parent.Infrastructure.Persistence.EFC.Repositories;
-using CareNestSolution.Shared.Domain.Respositories;
+using CareNestSolution.Shared.Domain.Repositories;
 using CareNestSolution.Shared.Infrastructure.Interfaces.ASP.Configuration;
 using CareNestSolution.Shared.Infrastructure.Persistence.EFC.Configuration;
 using CareNestSolution.Shared.Infrastructure.Persistence.EFC.Repositories;
@@ -48,9 +43,6 @@ builder.Services.AddSwaggerGen(options => options.EnableAnnotations());
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
-builder.Services.AddScoped<IParentCommandService, ParentCommandService>();
-builder.Services.AddScoped<IParentQueryService, ParentQueryService>();
-builder.Services.AddScoped<IParentRepository, ParentRepository>();
 
 
 var app = builder.Build();
