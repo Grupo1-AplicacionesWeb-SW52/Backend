@@ -5,5 +5,5 @@ namespace CareNestSolution.Profile.Domain.Repositories;
 
 public interface IProfileRepository : IBaseRepository<Model.Aggregates.Profile>
 {
-    Task<Model.Aggregates.Profile> FindProfileByEmailAsync(EmailAddress email);
+    Task<Model.Aggregates.Profile?> FindProfileByEmailAsync(EmailAddress email);
 }
