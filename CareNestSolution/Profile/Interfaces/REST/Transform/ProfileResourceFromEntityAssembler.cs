@@ -1,6 +1,11 @@
-﻿namespace CareNestSolution.Profile.Interfaces.REST.Transform;
+﻿using CareNestSolution.Profile.Interfaces.REST.Resources;
 
-public class ProfileResourceFromEntityAssembler
+namespace CareNestSolution.Profile.Interfaces.REST.Transform;
+
+public static class ProfileResourceFromEntityAssembler
 {
-    
+    public static ProfileResource ToResourceFromEntity(Domain.Model.Aggregates.Profile entity)
+    {
+        return new ProfileResource(entity.Id, entity.FullName, entity.EmailAddress, entity.StreetAddress);
+    }
 }
