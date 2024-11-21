@@ -1,6 +1,6 @@
 @CareNestSolution_HostAddress = http://localhost:5097
 
-GET {{CareNestSolution_HostAddress}}/Parent/
+GET {{CareNestSolution_HostAddress}}/api/v1/Users/
 Accept: application/json
 
 ###
