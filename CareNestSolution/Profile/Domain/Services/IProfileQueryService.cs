@@ -8,5 +8,5 @@ public interface IProfileQueryService
     
     Task<Model.Aggregates.Profile?> Handle(GetProfileByEmailQuery query);
     
-    Task<Model.Aggregates.Profile> Handle(GetProfileByIdQuery query);
+    Task<Model.Aggregates.Profile?> Handle(GetProfileByIdQuery query);
 }
