@@ -1,3 +1,5 @@
+using CareNestSolution.IAM.Domain.Model.Aggregates;
+using CareNestSolution.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
 using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
 using Microsoft.EntityFrameworkCore;
 
@@ -41,6 +43,40 @@ public class AppDbContext(DbContextOptions options) : DbContext(options)
         base.OnModelCreating(builder);
 
         // Publishing Context
+       
 
+        // Profiles Context
+        
+        builder.Entity<Profile.Domain.Model.Aggregates.Profile>().HasKey(p => p.Id);
+        builder.Entity<Profile.Domain.Model.Aggregates.Profile>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<Profile.Domain.Model.Aggregates.Profile>().OwnsOne(p => p.Name,
+            n =>
+            {
+                n.WithOwner().HasForeignKey("Id");
+                n.Property(p => p.FullName).HasColumnName("FullName");
+            });
+
+        builder.Entity<Profile.Domain.Model.Aggregates.Profile>().OwnsOne(p => p.Email,
+            e =>
+            {
+                e.WithOwner().HasForeignKey("Id");
+                e.Property(a => a.Address).HasColumnName("EmailAddress");
+            });
+
+        builder.Entity<Profile.Domain.Model.Aggregates.Profile>().OwnsOne(p => p.Address,
+            a =>
+            {
+                a.WithOwner().HasForeignKey("Id");
+                a.Property(s => s.Address).HasColumnName("AddressStreet");
+                a.Property(s => s.District).HasColumnName("District");
+            });
+        
+        // IAM Context
+        
+        builder.Entity<User>().HasKey(u => u.Id);
+        builder.Entity<User>().Property(u => u.Id).IsRequired().ValueGeneratedOnAdd();
+        builder.Entity<User>().Property(u => u.Username).IsRequired();
+        builder.Entity<User>().Property(u => u.PasswordHash).IsRequired();
+        builder.UseSnakeCaseNamingConvention();
     }
 }

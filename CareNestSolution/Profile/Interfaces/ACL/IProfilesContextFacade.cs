@@ -7,7 +7,6 @@ public interface IProfilesContextFacade
         string email,
         string phone,
         string document,
-        string password,
         string profileImg,
         string address,
         string district);

@@ -12,7 +12,6 @@ public static class CreateProfileCommandFromResourceAssembler
             resource.Email,
             resource.Phone,
             resource.Document,
-            resource.Password,
             resource.ProfileImg,
             resource.Address,
             resource.District);
