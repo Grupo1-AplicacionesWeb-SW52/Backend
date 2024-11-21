@@ -1,3 +1,3 @@
 ﻿namespace CareNestSolution.IAM.Interfaces.REST.Resources;
 
-public record SignInResource();
+public record SignInResource(string Username, string Password);
