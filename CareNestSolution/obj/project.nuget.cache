@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IuIR7GdfPvM=",
+  "dgSpecHash": "bblkfa+2Qos=",
   "success": true,
-  "projectFilePath": "C:\\Users\\RenzoA\\Documents\\AppsWeb\\Backend\\CareNest\\CareNestSolution\\CareNestSolution.csproj",
+  "projectFilePath": "C:\\Users\\RenzoA\\Documents\\AppsWeb\\Backend\\Backend\\CareNestSolution\\CareNestSolution.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RenzoA\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\RenzoA\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",

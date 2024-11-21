@@ -8440,11 +8440,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\RenzoA\\Documents\\AppsWeb\\Backend\\CareNest\\CareNestSolution\\CareNestSolution.csproj",
+      "projectUniqueName": "C:\\Users\\RenzoA\\Documents\\AppsWeb\\Backend\\Backend\\CareNestSolution\\CareNestSolution.csproj",
       "projectName": "CareNestSolution",
-      "projectPath": "C:\\Users\\RenzoA\\Documents\\AppsWeb\\Backend\\CareNest\\CareNestSolution\\CareNestSolution.csproj",
+      "projectPath": "C:\\Users\\RenzoA\\Documents\\AppsWeb\\Backend\\Backend\\CareNestSolution\\CareNestSolution.csproj",
       "packagesPath": "C:\\Users\\RenzoA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\RenzoA\\Documents\\AppsWeb\\Backend\\CareNest\\CareNestSolution\\obj\\",
+      "outputPath": "C:\\Users\\RenzoA\\Documents\\AppsWeb\\Backend\\Backend\\CareNestSolution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\RenzoA\\AppData\\Roaming\\NuGet\\NuGet.Config"
