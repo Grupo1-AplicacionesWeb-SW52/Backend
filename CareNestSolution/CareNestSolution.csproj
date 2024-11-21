@@ -23,9 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Profile\Application\" />
-      <Folder Include="Profile\Infrastructure\" />
-      <Folder Include="Profile\Interfaces\" />
+      <Folder Include="Profile\Interfaces\ACL\" />
     </ItemGroup>
 
 </Project>
