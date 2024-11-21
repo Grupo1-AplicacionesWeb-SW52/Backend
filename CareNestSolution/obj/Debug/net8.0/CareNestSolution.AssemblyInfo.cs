@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CareNestSolution")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9c62d2576a527acaa472b8810bb2fbcccfb2a1b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e73f0163f1194a94b0eaf5ce2c4ce7737676292e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CareNestSolution")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CareNestSolution")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
